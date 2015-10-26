@@ -1,0 +1,42 @@
+# generated files
+bin/
+gen/
+out/
+androidTest/
+build/
+.idea/
+
+# The next commented part is covered by build/
+#
+# **/build/*
+# built application files
+# *.apk
+# *.ap_
+# files for the dex VM
+# *.dex
+# Java class files
+# *.class
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IDEA/Android Studio project files, because the project can be imported from settings.gradle
+.idea/*
+*.iml
+
+# The next commented part is covered by .idea/*
+#
+# Local IDEA workspace
+# .idea/workspace.xml
+
+# Gradle cache
+.gradle
+
+# Windows thumbnail db
+.DS_Store
+thumbs.db
+
+## Sandbox stuff
+#_sandbox
+#app/src/main/assets/crashlytics-build.properties
+#app/src/main/res/values/com_crashlytics_export_strings.xml
